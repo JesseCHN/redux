@@ -46,7 +46,7 @@ export default function createStore<
   StateExt = never
 >(
   reducer: Reducer<S, A>,
-  enhancer?: StoreEnhancer<Ext, StateExt>
+  enhancer?: StoreEnhancer<Ext, StateExt> // store增强器
 ): Store<ExtendState<S, StateExt>, A, StateExt, Ext> & Ext
 export default function createStore<
   S,

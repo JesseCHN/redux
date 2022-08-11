@@ -1,3 +1,5 @@
+// ???
+// ActionCreator和ActionCreatorsMapObject是干什么用的
 /**
  * An *action* is a plain object that represents an intention to change the
  * state. Actions are the only way to get data into the store. Any data,
